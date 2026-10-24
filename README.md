@@ -1,36 +1,40 @@
-# Pahkui
+# How to change the default app for a file on Mac
 
-**一眼看清 Mac 上的文件由谁打开。**
+macOS lets you choose which app opens a file. The right method depends on whether you want to open a file just once, change one file, or change every file of the same type.
 
-Pahkui 是一款 macOS 文件关联管理工具，让你按应用或按文件格式查看默认打开方式，集中调整关联，并在提交前预览更改。
+## 1. Open a file with a different app just once
 
-**Take control of what opens your files on Mac.**
+In Finder, Control-click (or right-click) the file, choose **Open With**, and select an app. You can also select the file and use **File → Open With**. This opens the file in your chosen app without changing its default.
 
-Pahkui helps you view and manage default apps by application or file format, with a preview before you apply changes.
+## 2. Change the app for one file
 
-[官网 / Website](https://pahkui.com) · [下载 / Download](https://pahkui.com/download) · [使用指南 / Guides](https://pahkui.com/guides) · [反馈问题 / Report an issue](https://github.com/FM7077/pahkui/issues)
+Select the file in Finder and press **Command-I** to open **Get Info**. Expand **Open with**, then choose an app. Leave **Change All** untouched if you only want to change that file.
 
-![Pahkui 按应用查看文件关联的界面 / File associations by app](https://pahkui.com/pahkui-app-by-app.png)
+## 3. Change the default for a file type
 
-## 能做什么 / What you can do
+Select a file of that type in Finder, open **Get Info**, choose an app under **Open with**, then click **Change All** and confirm. For example, doing this with a `.md` file changes the default app for files of the same type.
 
-- **按应用查看 / Browse by app：**查看一个应用关联的文件格式，并选择要调整的格式。
-- **按格式查看 / Browse by format：**查看某种文件格式可用的应用，选择默认打开方式。
-- **先预览，再应用 / Preview before applying：**检查待修改的关联，确认后再写入系统。
-- **补充自定义格式 / Add custom formats：**手动输入扩展名，或选择已安装的应用。
+These Finder steps follow [Apple's guide to choosing an app to open a file](https://support.apple.com/guide/mac-help/choose-an-app-to-open-a-file-on-mac-mh35597/mac).
 
-## 获取 Pahkui / Get Pahkui
+## Managing more than one format? Meet Pahkui.
 
-访问 [下载页面](https://pahkui.com/download) 查看最新的安装与可用状态。Pahkui 面向 macOS 14 及更新版本。
+Finder works well for a quick change. If you need to review and adjust several file associations, [Pahkui](https://pahkui.com) brings them together in one macOS app:
 
-Visit the [download page](https://pahkui.com/download) for the latest availability and installation information. Pahkui is designed for macOS 14 and later.
+- **Browse by app:** see which formats an app can handle and select the ones you want to change.
+- **Browse by format:** compare available apps for a file format and choose its default.
+- **Preview changes:** review pending associations before applying them.
+- **Add custom formats:** enter an extension or choose an installed app when needed.
 
-## 反馈 / Feedback
+![Pahkui showing file associations by app](https://pahkui.com/pahkui-app-by-app.png)
 
-发现文件格式识别或默认应用设置的问题？欢迎[提交 Issue](https://github.com/FM7077/pahkui/issues)。请附上 macOS 版本、文件扩展名、目标应用，以及重现步骤。
+Pahkui is designed for macOS 14 and later. Visit the [download page](https://pahkui.com/download) for current availability and installation information.
+
+[Website](https://pahkui.com) · [Download](https://pahkui.com/download) · [Guides](https://pahkui.com/guides) · [Support](https://pahkui.com/support)
+
+## Feedback
 
 Found a problem with a file format or default app? [Open an issue](https://github.com/FM7077/pahkui/issues) with your macOS version, file extension, target app, and steps to reproduce.
 
 ---
 
-[隐私政策 / Privacy](https://pahkui.com/privacy-policy) · [服务条款 / Terms](https://pahkui.com/terms-of-service) · [支持 / Support](https://pahkui.com/support)
+[Privacy](https://pahkui.com/privacy-policy) · [Terms](https://pahkui.com/terms-of-service)
